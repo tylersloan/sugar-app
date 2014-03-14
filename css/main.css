@@ -130,19 +130,17 @@ header .toggle-menu {
 .menu-button path { fill: #607482 }
 
 .icon.close-nav {
-	display: inline-block;
-	color: #FFF;
+	position: absolute;
+	top: .5em;
+	right: .5em;
+	color: rgba(0,0,0,.4);
+	opacity: .85;
 	border-bottom: 0;
-	border: 3px solid #FFF;
-	line-height: 1.4;
-	padding: 0;
-	border-radius: 100%;
-	width: 50px;
-	height: 50px;
-	-webkit-transform: translate3d(0px,-100%,0);
-	transform: translate3d(0px,-100%,0);
+	font-size: 1.75em;
 	cursor: pointer;
 }
+
+.icon.close-nav:hover, .icon.close-nav:focus { color: white; }
 
 ul.nav {
 	position: absolute;
@@ -151,7 +149,7 @@ ul.nav {
 	bottom: 0;
 	left: 0;
 	background: #92a3af;
-	padding: 30% 0 0 5%;
+	padding: 30% 5% 0 5%;
 	font-size: 1em;
 	text-align: left;
 	z-index: 2000;
@@ -181,8 +179,8 @@ ul.nav.is-visible {
 	position: absolute;
 	content: '';
 	background: #FFF;
-	height: 1px;
-	width: 90%;
+	height: 2px;
+	width: 100%;
 	left: 0;
 	bottom: 0;
 }
@@ -239,21 +237,29 @@ article p {
 	text-transform: uppercase;
 }
 
+.search-container { position: relative; margin-bottom: .25em; }
+.search-container span.icon-search {
+	position: absolute;
+	top: 0.45em;
+	right: 0.5em;
+	font-size: 1.7em;
+	color: #607482;
+}
+
 .search {
 	position: relative;
 	-webkit-appearance: none;
 	width: 100%;
 	padding: .9em;
 	font-size: 1em;
-	background: #92a3af url(http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png) no-repeat 95% center;
-	background-size: 20px auto;
-	border: 1px solid #45535d;
+	background: #92a3af;
+	border: 3px solid transparent;
 	transition: 175ms all ease-in-out;
 }
 
 .search:focus {
 	background-color: #a5b2bc;
-	border-width: 3px;
+	border-color: #45535d;
 	outline: 0 solid #607482;
 }
 

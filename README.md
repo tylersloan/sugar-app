@@ -18,8 +18,6 @@ If you have any extra information or ideas on how to enhance this page for the g
 
 Attributions:
 
-My mom, Marci Sloan, researched and wrote almost all the words one this site.
-
-At [/purpose](http://tylersloan.github.io/sugar-app/purpose/ "Purpose of The SSugar List") I listed sites where I gather glycemic index numbers.
-
-Tshirt icon by [Norbert Kucsera](http://thenounproject.com/term/tshirt/36016/ "Tshirt by Norbert Kuscera") from The Noun Project.
++ My mom, Marci Sloan, researched and wrote almost all the words one this site.
++ At [/purpose](http://tylersloan.github.io/sugar-app/purpose/ "Purpose of The SSugar List") I listed sites where I gather glycemic index numbers.
++ Tshirt icon by [Norbert Kucsera](http://thenounproject.com/term/tshirt/36016/ "Tshirt by Norbert Kuscera") from The Noun Project.

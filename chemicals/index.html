@@ -6,11 +6,7 @@ title: Chemicals
   <h3 class="h1 page-heading">{{ page.title }}</h3>
   <p>This list of sugars are not actually sugars at all. These are chemicals that food scientists created for your enjoyment.</p>
   <div id="sugars-list">
-    <div class="sort-options" id="the-list">
-      <input class="search" placeholder="Type to Search Sugars">
-      <button class="sort button" data-sort="sugar-name">Sort Alphabetically</button>
-      <button class="sort button" data-sort="gi">Sort by GI</button>
-    </div>
+    {% include search.html %}
 
     <ul class="sugars list">
       {% for post in site.tags.chemical %}

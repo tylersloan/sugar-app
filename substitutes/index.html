@@ -6,11 +6,7 @@ title: Sugar Substitutes
   <h3 class="h1 page-heading">{{ page.title }}</h3>
   <p>Here is a list of sugar substitutes.</p>
   <div id="sugars-list">
-    <div class="sort-options" id="the-list">
-      <input class="search" placeholder="Type to Search Sugars">
-      <button class="sort button" data-sort="sugar-name">Sort Alphabetically</button>
-      <button class="sort button" data-sort="gi">Sort by GI</button>
-    </div>
+    {% include search.html %}
 
     <ul class="sugars list">
       {% for post in site.tags.substitute %}

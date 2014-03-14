@@ -6,11 +6,7 @@ title: OK Sugars
   <h3 class="h1 page-heading">{{ page.title }}</h3>
   <p>Not all sugars are completely bad for you. Although the following sugars have some nutritional value, consumption should still be limited.</p>
   <div id="sugars-list">
-    <div class="sort-options" id="the-list">
-      <input class="search" placeholder="Type to Search Sugars">
-      <button class="sort button" data-sort="sugar-name">Sort Alphabetically</button>
-      <button class="sort button" data-sort="gi">Sort by GI</button>
-    </div>
+    {% include search.html %}
 
     <ul class="sugars list">
       {% for post in site.tags.ok %}

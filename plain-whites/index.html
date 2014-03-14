@@ -6,11 +6,7 @@ title: Plain White Sugars
   <h3 class="h1 page-heading">{{ page.title }}</h3>
   <p>A lot of the ingredients you see could just be regular white sugar. They get different names depending on how, and how long, they're processed.</p>
   <div id="sugars-list">
-    <div class="sort-options" id="the-list">
-      <input class="search" placeholder="Type to Search Sugars">
-      <button class="sort button" data-sort="sugar-name">Sort Alphabetically</button>
-      <button class="sort button" data-sort="gi">Sort by GI</button>
-    </div>
+    {% include search.html %}
 
     <ul class="sugars list">
       {% for post in site.tags.whites %}

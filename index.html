@@ -8,11 +8,7 @@ title: List
   <div id="sugars-list">
 
     <h3 class="h1">The {{ page.title }}</h3>
-    <div class="sort-options" id="the-list">
-      <input class="search" placeholder="Type to Search Sugars">
-      <button class="sort button" data-sort="sugar-name">Sort Alphabetically</button>
-      <button class="sort button" data-sort="gi">Sort by GI</button>
-    </div>
+    {% include search.html %}
 
     <ul class="sugars list">
       {% for post in site.categories.sugar %}
