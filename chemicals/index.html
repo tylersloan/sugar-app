@@ -3,7 +3,7 @@ layout: default
 title: Chemicals
 ---
   
-  <h3 class="h1">{{ page.title }}</h3>
+  <h3 class="h1 page-heading">{{ page.title }}</h3>
   <p>This list of sugars are not actually sugars at all. These are chemicals that food scientists created for your enjoyment.</p>
   <div id="sugars-list">
     <div class="sort-options" id="the-list">
@@ -13,7 +13,7 @@ title: Chemicals
     </div>
 
     <ul class="sugars list">
-      {% for post in site.tags.chemicals %}
+      {% for post in site.tags.chemical %}
       <li>
         <p class="sugar-name">
           {{ post.title }}

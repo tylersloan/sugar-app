@@ -12,3 +12,14 @@ If you have any extra information or ideas on how to enhance this page for the g
 ---
 
 **While what's here now is usable as-is, I plan to use this little app to learn, practice, and play with different web technologies I find interesting. I'll create other branches to work on that stuff.**
+
+
+---
+
+Attributions:
+
+My mom, Marci Sloan, researched and wrote almost all the words one this site.
+
+At [/purpose](http://tylersloan.github.io/sugar-app/purpose/ "Purpose of The SSugar List") I listed sites where I gather glycemic index numbers.
+
+Tshirt icon by [Norbert Kucsera](http://thenounproject.com/term/tshirt/36016/ "Tshirt by Norbert Kuscera") from The Noun Project.

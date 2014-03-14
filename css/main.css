@@ -97,6 +97,10 @@ h3 { font-weight: 400 }
 	text-align: center;
 }
 
+.page-heading {
+	padding-bottom: 0;
+}
+
 p {
 	padding: 2em;
 	border-bottom: 3px solid;
@@ -376,7 +380,10 @@ li a p { display: inline-block }
 	transition: 200ms all linear;
 }
 
-.active .swiveler { -webkit-transform: rotate(90deg) }
+.active .swiveler {
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
 
 .swiveler path { fill: #607482 }
 
