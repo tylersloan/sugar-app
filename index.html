@@ -1,6 +1,7 @@
 ---
 layout: default
 title: List
+class: home
 ---
   
   <h3 class="h1 page-heading">Introduction</h3>
@@ -12,27 +13,7 @@ title: List
 
     <ul class="sugars list">
       {% for post in site.categories.sugar %}
-      <li>
-        <p class="sugar-name">
-          {{ post.title }}
-          <svg version="1.1"
-               class="swiveler"
-               id="Layer_1"
-               xmlns="http://www.w3.org/2000/svg"
-               xmlns:xlink="http://www.w3.org/1999/xlink"
-               x="0px" y="0px"
-               viewBox="0 0 59.858 98.275"
-               style="enable-background:new 0 0 59.858 98.275;"
-               xml:space="preserve">
-            <path d="M0,1.122v96.03c0,0.95,1.108,1.469,1.837,0.861l57.618-48.015c0.537-0.448,0.537-1.273,0-1.721L1.837,0.262
-            C1.108-0.346,0,0.173,0,1.122z"/>
-          </svg>
-        </p>
-        <div class="sugar-meta visually-hidden">
-          <p class="gi"><span>GI:</span> {{ post.gi }}</p>
-          <p>{{ post.description }}</p>
-        </div>
-      </li>
+        {% include sugar-list-item.html %}
       {% endfor %}
     </ul>
   </div>

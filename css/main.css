@@ -127,8 +127,6 @@ header .toggle-menu {
 	cursor: pointer;
 }
 
-.menu-button path { fill: #607482 }
-
 .icon.close-nav {
 	position: absolute;
 	top: .5em;
@@ -188,9 +186,11 @@ ul.nav.is-visible {
 .nav li:last-child:after,
 .nav li:first-of-type:after { background: none; }
 
-.nav li a {
-	color: white;
-}
+.nav li a,
+.nav li a:visited { color: white; }
+
+.nav li a:hover,
+.nav li a:focus { color: #37434B; }
 
 .nav li span {
 	margin-right: .5em;
@@ -207,12 +207,20 @@ footer {
 	background: #607482;
 }
 
-footer a,
 footer p {
 	display: inline-block;
 	font-size: .8em;
 	color: #b7c2ca;
 	border-bottom: 0;
+}
+
+footer a, footer a:visited {
+	color: #b7c2ca;
+	opacity: .85;
+}
+
+footer a:hover, footer a:focus {
+	opacity: 1;
 }
 
 .wrapper {
@@ -385,11 +393,11 @@ li a {
 li a p { display: inline-block }
 
 .swiveler {
-	position: absolute;
-	top: 4px;
-	margin-left: .5em;
-	width: 10px;
-	height: 16px;
+	display: inline-block;
+	margin-left: 0;
+	font-size: 1.7em;
+	line-height: 0 !important;
+	vertical-align: middle;
 	-webkit-transition: 200ms all linear;
 	-moz-transition: 200ms all linear;
 	-ms-transition: 200ms all linear;
@@ -402,29 +410,14 @@ li a p { display: inline-block }
 	transform: rotate(90deg);
 }
 
-.swiveler path { fill: #607482 }
-
 .sugar-name { position: relative }
-
-.sugar-name.active,
-.sugar-name:focus,
-.sugar-name:hover {
-	color: #2a3239;
-	cursor: pointer;
-}
-
-.sugar-name.active .swiveler,
-.sugar-name:focus .swiveler,
-.sugar-name:hover .swiveler { margin-left: .75em }
-
-.sugar-name.active .swiveler path,
-.sugar-name:focus .swiveler path,
-.sugar-name:hover .swiveler path { fill: #2a3239 }
+.sugar-name.active, .sugar-name:focus, .sugar-name:hover { color: #2a3239; cursor: pointer; }
+.sugar-name.active .swiveler, .sugar-name:focus .swiveler, .sugar-name:hover .swiveler { margin-left: 3px; }
 
 .sugars li {
 	padding: 1em;
 	background: #a5b2bc;
-	color: #2a3239;
+	color: #37434B;
 }
 
 .sugars li:nth-child(even) { background: #b3bfc7 }
