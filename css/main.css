@@ -132,7 +132,7 @@ header .toggle-menu {
 .icon.close-nav {
 	position: absolute;
 	top: .5em;
-	right: .5em;
+	right: 5%;
 	color: rgba(0,0,0,.4);
 	opacity: .85;
 	border-bottom: 0;
@@ -149,14 +149,14 @@ ul.nav {
 	bottom: 0;
 	left: 0;
 	background: #92a3af;
-	padding: 30% 5% 0 5%;
+	padding: 6em 5% 0 5%;
 	font-size: 1em;
 	text-align: left;
 	z-index: 2000;
 	transition: 115ms transform linear;
 	-webkit-transition: 115ms -webkit-transform linear;
-	-webkit-transform: translate3d(0px,-100%,0);
-	transform: translate3d(0px,-100%,0);
+	-webkit-transform: translate3d(0px,-200%,0);
+	transform: translate3d(0px,-200%,0);
 }
 
 .nav .h1 {
@@ -172,14 +172,14 @@ ul.nav.is-visible {
 
 .nav li {
 	position: relative;
-	padding: .5em 0;
+	padding: .75em 0;
 }
 
 .nav li:after {
 	position: absolute;
 	content: '';
 	background: #FFF;
-	height: 2px;
+	height: 1px;
 	width: 100%;
 	left: 0;
 	bottom: 0;
@@ -190,6 +190,16 @@ ul.nav.is-visible {
 
 .nav li a {
 	color: white;
+}
+
+.nav li span {
+	margin-right: .5em;
+	padding: .25em .25em .25em 0;
+	line-height: 0;
+	vertical-align: middle;
+	font-size: 1.5em;
+	color: rgba(0,0,0,.45);
+	border-right: 3px solid;
 }
 
 footer {
@@ -207,6 +217,7 @@ footer p {
 
 .wrapper {
 	width: 100%;
+	max-width: 800px;
 	margin: 0 auto;
 }
 

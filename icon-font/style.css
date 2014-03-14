@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'sugarapp-icons';
-	src:url('fonts/sugarapp-icons.eot?4fkmrf');
-	src:url('fonts/sugarapp-icons.eot?#iefix4fkmrf') format('embedded-opentype'),
-		url('fonts/sugarapp-icons.woff?4fkmrf') format('woff'),
-		url('fonts/sugarapp-icons.ttf?4fkmrf') format('truetype'),
-		url('fonts/sugarapp-icons.svg?4fkmrf#sugarapp-icons') format('svg');
+	src:url('fonts/sugarapp-icons.eot?yryusk');
+	src:url('fonts/sugarapp-icons.eot?#iefixyryusk') format('embedded-opentype'),
+		url('fonts/sugarapp-icons.woff?yryusk') format('woff'),
+		url('fonts/sugarapp-icons.ttf?yryusk') format('truetype'),
+		url('fonts/sugarapp-icons.svg?yryusk#sugarapp-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -35,9 +35,6 @@
 .icon-arrow-right:before {
 	content: "\e3b5";
 }
-.icon-tshirt:before {
-	content: "\e600";
-}
 .icon-cplus:before {
 	content: "\e601";
 }
@@ -46,6 +43,9 @@
 }
 .icon-br:before {
 	content: "\e603";
+}
+.icon-tshirt:before {
+	content: "\e600";
 }
 .icon-sugar-packet:before {
 	content: "\e604";
