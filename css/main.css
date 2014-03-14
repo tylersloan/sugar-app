@@ -142,15 +142,17 @@ header .toggle-menu {
 
 ul.nav {
 	position: absolute;
+	height: 100%;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
 	background: #92a3af;
-	padding: 6em 5% 0 5%;
+	padding: 3em 5% 4em 5%;
 	font-size: 1em;
 	text-align: left;
 	z-index: 2000;
+	overflow: scroll;
 	transition: 115ms transform linear;
 	-webkit-transition: 115ms -webkit-transform linear;
 	-webkit-transform: translate3d(0px,-200%,0);
