@@ -1,3 +1,4 @@
 name: The Sugar List
 markdown: redcarpet
 pygments: false
+baseurl: /sugar-app
