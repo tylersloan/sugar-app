@@ -7,7 +7,7 @@ This is a list of sugars to beware of at the grocery store.
 
 No kidding though, this is meant to be a quick reference to identify tricky sugar ingredient names.
 
-If you have any extra information or ideas on how to enhance this page for the greater good, submit a pull-request. I'm all about making this as useful and useable as possible.
+If you have any extra information or ideas on how to enhance this page for the greater good or some design sense, submit a pull-request. I'm all about making this as useful and useable as possible.
 
 ---
 

@@ -146,13 +146,21 @@ ul.nav {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.85);
-	padding: 60% 0 0 0;
-	font-size: 2em;
+	background: #92a3af;
+	padding: 30% 0 0 5%;
+	font-size: 1em;
+	text-align: left;
+	z-index: 2000;
 	transition: 115ms transform linear;
 	-webkit-transition: 115ms -webkit-transform linear;
 	-webkit-transform: translate3d(0px,-100%,0);
 	transform: translate3d(0px,-100%,0);
+}
+
+.nav .h1 {
+	padding: 0;
+	text-align: left;
+	color: #333;
 }
 
 ul.nav.is-visible {
@@ -169,16 +177,14 @@ ul.nav.is-visible {
 	position: absolute;
 	content: '';
 	background: #FFF;
-	height: 3px;
-	width: 20%;
-	left: 50%;
-	margin-left: -10%;
+	height: 1px;
+	width: 90%;
+	left: 0;
 	bottom: 0;
 }
 
-.nav li:last-child:after {
-	background: none;
-}
+.nav li:last-child:after,
+.nav li:first-of-type:after { background: none; }
 
 .nav li a {
 	color: white;
@@ -230,18 +236,20 @@ article p {
 }
 
 .search {
+	position: relative;
 	-webkit-appearance: none;
 	width: 100%;
 	padding: .9em;
 	font-size: 1em;
-	background: #92a3af;
-	border: 3px solid #607482;
+	background: #92a3af url(http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png) no-repeat 95% center;
+	background-size: 20px auto;
+	border: 1px solid #45535d;
 	transition: 175ms all ease-in-out;
 }
 
 .search:focus {
-	background: #a5b2bc;
-	border-color: #45535d;
+	background-color: #a5b2bc;
+	border-width: 3px;
 	outline: 0 solid #607482;
 }
 
@@ -308,7 +316,7 @@ article p {
 .sort-options {
 	position: relative;
 	display: block;
-	margin: 1em 0 0;
+	margin: 0;
 	padding: 1em;
 	background: #607482;
 }
