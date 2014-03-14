@@ -15,7 +15,11 @@ $(document).ready(function(){
   });
 
   $('.toggle-menu').click(function(){
-    $('.nav').toggleClass('visually-hidden');
-  })
+    $('.nav').addClass('is-visible');
+  });
+
+  $('.close-nav').click(function(){
+    $('.nav').removeClass('is-visible');
+  });
 
 });
