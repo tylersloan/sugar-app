@@ -145,15 +145,19 @@ ul.nav {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 100%;
+	left: 0;
 	background: rgba(0, 0, 0, 0.85);
 	padding: 60% 0 0 0;
 	font-size: 2em;
-	transition: 75ms left linear;
+	transition: 115ms transform linear;
+	-webkit-transition: 115ms -webkit-transform linear;
+	-webkit-transform: translate3d(0px,-100%,0);
+	transform: translate3d(0px,-100%,0);
 }
 
 ul.nav.is-visible {
-	left: 0;
+	-webkit-transform: translate3d(0px,0,0);
+	transform: translate3d(0px,0,0);
 }
 
 .nav li {
