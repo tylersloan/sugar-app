@@ -1,0 +1,12 @@
+---
+layout: default
+title: Tips and Encouragement
+class: tips
+---
+
+{% for post in site.categories.tips %}
+  <h3 class="h1 page-heading">{{ page.title }}</h3>
+  <article>
+    <p>{{ post.content }}</p>
+  </article>
+{% endfor %}

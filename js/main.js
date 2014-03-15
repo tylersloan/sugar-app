@@ -21,5 +21,4 @@ $(document).ready(function(){
   $('.close-nav').click(function(){
     $('.nav').removeClass('is-visible');
   });
-
 });

@@ -1,0 +1,12 @@
+---
+layout: default
+title: Glycemic Index
+class: gi
+---
+
+<article>
+  {% for post in site.categories.gi %}
+    <h3 class="h1 page-heading">{{ page.title }}</h3>
+    <p>{{ post.content }}</p>
+  {% endfor %}
+</article>

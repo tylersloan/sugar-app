@@ -4,14 +4,31 @@
     <a href="/{{ site.baseurl }}">{{ site.name }}</a>
   </h1>
   <div class="toggle-menu button">Menu</div>
+  
   <ul class="nav">
-    <p class="icon icon-close close-nav">  </p>
+    <span class="icon icon-close close-nav"></span>
+    <li><h3 class="h1">Table of Contents</h3></li>
+    <li><a href="{{ site.baseurl }}/dangers">The Dangers of Sugars</a></li>
+    <li><a href="{{ site.baseurl }}/consumption">Suggested Limitations</a></li>
+    <li>
+      <a href="{{ site.baseurl }}/sweeteners">Sweeteners</a>
+      <ul>
+        <li><a href="{{ site.baseurl }}/sweeteners#honey">Pluses for Honey</a></li>
+        <li><a href="{{ site.baseurl }}/sweeteners#agave">Pluses for Agave</a></li>
+        <li><a href="{{ site.baseurl }}/sweeteners#stevia">Pluses for Stevia</a></li>
+      </ul>
+    </li>
+    <li><a href="{{ site.baseurl }}/glycemic-index">The Glycemic Index</a></li>
+    <li><a href="{{ site.baseurl }}/tips">Tips &amp; Encouragement</a></li>
+    
     <li><h3 class="h1">Lists of Sugars</h3></li>
-    <li class="close-nav"><a href="/{{ site.baseurl }}#the-list">The Unabridged List</a></li>
+    <li class="close-nav"><a href="{{ site.baseurl }}#the-list">The Unabridged List</a></li>
     <li><a href="{{ site.baseurl }}/ok">Sugars with Some Value</a></li>
     <li><a href="{{ site.baseurl }}/plain-whites">Plain White Sugars</a></li>
     <li><a href="{{ site.baseurl }}/substitutes">Sugar Substitues (Sweeteners)</a></li>
     <li><a href="{{ site.baseurl }}/chemicals">Sugars that are Chemicals</a></li>
+    
     <li><a href="{{ site.baseurl }}/purpose">Purpose</a></li>
   </ul>
+
 </header>

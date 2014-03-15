@@ -1,0 +1,12 @@
+---
+layout: default
+title: Dangers and Realities
+class: dangers
+---
+
+<article>
+  {% for post in site.categories.dangers %}
+    <h3 class="h1 page-heading">{{ page.title }}</h3>
+    <p>{{ post.content }}</p>
+  {% endfor %}
+</article>

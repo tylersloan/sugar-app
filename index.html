@@ -1,19 +1,17 @@
 ---
 layout: default
-title: List
+title: Unabridged List
 class: home
 ---
   
-  <h3 class="h1 page-heading">Introduction</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et nulla vel justo iaculis tristique quis a lorem. Pellentesque pharetra neque id ornare semper. Sed eget nibh nec leo auctor luctus. Proin sed odio scelerisque, aliquet nunc at, viverra risus. Maecenas consectetur interdum tortor id sodales. Sed hendrerit ultrices porttitor. Quisque eget congue tellus. Etiam eget mauris arcu. Pellentesque eu mauris aliquet, feugiat odio quis, facilisis purus. Praesent in augue dolor. Praesent tempor justo purus, eget commodo eros molestie sed.</p>
-  <div id="sugars-list">
+<h2 class="h4 page-heading">The Sugar List is a quick &amp; easy reference to help you make better decision when buying groceries.</h2>
 
-    <h3 class="h1">The {{ page.title }}</h3>
-    {% include search.html %}
-
-    <ul class="sugars list">
-      {% for post in site.categories.sugar %}
-        {% include sugar-list-item.html %}
-      {% endfor %}
-    </ul>
-  </div>
+<div id="sugars-list">
+  <h3 class="h1">The {{ page.title }}</h3>
+  {% include search.html %}
+  <ul class="sugars list">
+    {% for post in site.categories.sugar %}
+      {% include sugar-list-item.html %}
+    {% endfor %}
+  </ul>
+</div>

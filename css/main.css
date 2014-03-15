@@ -77,8 +77,7 @@ a:visited:hover { color: #37434b }
 
 .flex-container input { width: auto }
 
-h1,
-h3 { font-weight: 400 }
+h1,h3 { font-weight: 400 }
 
 .h1, h1 {
 	padding: .5em 0 0 0;
@@ -95,6 +94,14 @@ h3 { font-weight: 400 }
 	padding: 1em 0; 
 	background: 0 0;
 	text-align: center;
+}
+
+.h4 {
+	width: 90%;
+	margin: 2em auto;
+	font-size: 1.3em;
+	font-family: Oswald,sans-serif;
+	text-align: left;
 }
 
 .page-heading {
@@ -136,6 +143,7 @@ header .toggle-menu {
 	border-bottom: 0;
 	font-size: 1.75em;
 	cursor: pointer;
+	z-index: 2001;
 }
 
 .icon.close-nav:hover, .icon.close-nav:focus { color: white; }
@@ -148,7 +156,7 @@ ul.nav {
 	bottom: 0;
 	left: 0;
 	background: #92a3af;
-	padding: 3em 5% 4em 5%;
+	padding: 2em 5% 4em 5%;
 	font-size: 1em;
 	text-align: left;
 	z-index: 2000;
@@ -186,7 +194,24 @@ ul.nav.is-visible {
 }
 
 .nav li:last-child:after,
-.nav li:first-of-type:after { background: none; }
+.nav li:first-child:after,
+.nav li ul li:after { background: none; }
+
+.nav li ul li {
+	padding: 0 0 0 5%;
+	line-height: 1.4;
+	text-indent: 5%;
+}
+
+.nav li ul li:before {
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 5%;
+	width: 5px;
+	height: 1px;
+	background: white;
+}
 
 .nav li a,
 .nav li a:visited { color: white; }
@@ -294,6 +319,9 @@ article p {
 	border: 0;
 	margin-right: 1em;
 }
+
+.button.sort:active,
+.button.sort:focus{ outline-width: 0; }
 
 .button.sort.asc:after,
 .button.sort.desc:after {

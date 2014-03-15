@@ -1,0 +1,12 @@
+---
+layout: default
+title: Recommended Consumption
+class: consumption
+---
+
+<article>
+  {% for post in site.categories.consumption %}
+    <h3 class="h1 page-heading">{{ page.title }}</h3>
+    <p>{{ post.content }}</p>
+  {% endfor %}
+</article>
