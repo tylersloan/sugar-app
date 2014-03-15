@@ -168,9 +168,17 @@ ul.nav {
 }
 
 .nav .h1 {
+	margin-top: 2em;
 	padding: 0;
 	text-align: left;
 	color: #333;
+	line-height: 0;
+}
+
+.nav .h4 {
+	width: 100%;
+	margin: 2em 0 0 0;
+	font-weight: 300;
 }
 
 ul.nav.is-visible {
@@ -186,7 +194,7 @@ ul.nav.is-visible {
 .nav li:after {
 	position: absolute;
 	content: '';
-	background: #FFF;
+	background: rgba(0,0,0,.15);
 	height: 1px;
 	width: 100%;
 	left: 0;
@@ -469,4 +477,9 @@ li a p { display: inline-block }
 	font-size: 1.15em;
 	color: #607482;
 	border-bottom: 1px solid #FFF;
+}
+
+@media screen and (max-width: 800px) {
+	.nav li a:hover,
+	.nav li a:focus { color: white; }
 }
