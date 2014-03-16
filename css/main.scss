@@ -1,4 +1,5 @@
-@charset "UTF-8";
+@import 'variables';
+
 * {
 	margin: 0;
 	padding: 0;
@@ -8,12 +9,12 @@
 }
 
 body {
-	background: #92a3af;
+	background: $red;
 	font-family: Domine,serif;
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.45;
-	color: #37434b;
+	color: #ddf0ec;
 }
 
 .right { float: right }
@@ -29,12 +30,13 @@ a:visited {
 	-ms-transition: 200ms color linear;
 	-o-transition: 200ms color linear;
 	transition: 200ms color linear;
+
+	h1 & {
+		color: $dark-grey;
+	}
 }
 
-a:focus,
-a:hover,
-a:visited:focus,
-a:visited:hover { color: #37434b }
+a:focus, a:hover, a:visited:focus, a:visited:hover { color: #37434b }
 
 .flex-container {
 	width: 100%;
@@ -87,6 +89,7 @@ h1,h3 { font-weight: 400 }
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	background: #FFF;
+	color: $dark-grey;
 }
 
 .h1 {
@@ -98,9 +101,10 @@ h1,h3 { font-weight: 400 }
 
 .h4 {
 	width: 90%;
-	margin: 2em auto;
-	font-size: 1.3em;
-	font-family: Oswald,sans-serif;
+	margin: 0 auto 2em auto;
+	font-size: 1.375em;
+	font-family: $serif;
+	font-weight: bold;
 	text-align: left;
 }
 
@@ -124,14 +128,18 @@ header {
 	text-align: center;
 }
 
-header .toggle-menu {
+.toggle-menu {
 	display: inline-block;
 	max-width: 200px;
 	width: auto;
 	margin: .35em 0 1em;
 	padding: .25em .45em;
-	color: #607482;
 	cursor: pointer;
+
+	&.button {
+		border-color: $red;
+		color: $red;
+	}
 }
 
 .icon.close-nav {
@@ -262,6 +270,11 @@ footer a:hover, footer a:focus {
 	width: 100%;
 	max-width: 800px;
 	margin: 0 auto;
+	padding-top: 2em;
+	@include background-image('sugar-molecule');
+	background-repeat: no-repeat;
+	background-position: center -40px;
+	background-size: auto 580px;
 }
 
 article {
@@ -429,6 +442,43 @@ li a {
 }
 
 li a p { display: inline-block }
+
+#sugars-list {
+	h3 {
+		position: relative;
+		max-width: 250px;
+		background: $light-color;
+		margin: 0 auto 2em auto;
+		padding: .5em 0.5em;
+		font-size: 1.375em;
+		box-shadow: 0 0 0px 7px rgba(0, 0, 0, 0.05);
+		@include border-radius(3px);
+		cursor: pointer;
+
+		a { color: $dark-grey; }
+
+		.arrow-down {
+			width: 50px;
+			height: 59px;
+			position: absolute;
+			left: 50%;
+			bottom: 0px;
+			-webkit-transform: translate3d(-25px,45px,0);
+			transform: translate3d(-25px,45px,0);
+
+			path {
+				fill: $light-color;
+			}
+		}
+
+		&:hover, &:hover {
+			.arrow-down {
+				-webkit-transform: translate3d(-25px,50px,0);
+				transform: translate3d(-25px,50px,0);
+			}
+		}
+	}
+}
 
 .swiveler {
 	display: inline-block;

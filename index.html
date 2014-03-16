@@ -4,10 +4,28 @@ title: Unabridged List
 class: home
 ---
   
-<h2 class="h4 page-heading">The Sugar List is a quick &amp; easy reference to help you make better decision when buying groceries.</h2>
+<h2 class="h4 page-heading">The Sugar List is a quick reference to the many ingredients that are simply sugar. This pocket guide will help you make more knowledgable decisions at the grocery store.</h2>
 
 <div id="sugars-list">
-  <h3 class="h1">The {{ page.title }}</h3>
+  <!-- <div class="go-on"> -->
+    <h3 class="h1">
+      <a href="#the-list">
+        The {{ page.title }}
+        <svg version="1.1"
+             class="arrow-down"
+             id="Layer_1"
+             xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
+             x="0px" y="0px"
+             viewBox="0 0 512 512"
+             enable-background="new 0 0 512 512"
+             xml:space="preserve">
+        <path d="M256,512l256-256H352V0L160,0v256H0L256,512z"/>
+        </svg>
+      </a>
+    </h3>
+  <!-- </div> -->
+
   {% include search.html %}
   <ul class="sugars list">
     {% for post in site.categories.sugar %}
