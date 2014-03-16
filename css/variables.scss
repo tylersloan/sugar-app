@@ -1,9 +1,15 @@
 $red: #b5664c;
-$light-color: #ddf0ec;
+// $light-color: #ddf0ec;
+$light-color: #fff;
 $dark-grey: #4c4c4c;
 
-$serif: Domine,serif;
-$sans: Oswald,sans-serif;
+@mixin sans {
+  font-family: Oswald,sans-serif;
+}
+
+@mixin serif {
+  font-family: Domine,serif;
+}
 
 @mixin border-radius($radius) {
   border-radius: $radius;
