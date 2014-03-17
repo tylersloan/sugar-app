@@ -1,15 +1,18 @@
           <footer>
-            <p>&copy; 2014 Tyler Sloan &amp; Marci Sloan</p>
-            <a class="icon icon-github right" href="https://github.com/tylersloan/sugar-app"></a>
+            <section>
+              <p>&copy; 2014 Tyler Sloan &amp; Marci Sloan</p>
+              <a class="icon icon-github right" href="https://github.com/tylersloan/sugar-app"></a>
+            </section>
           </footer>
         </div>
 
     <script src="{{ site.baseurl }}/js/libs/jquery-1.11.0.min.js"></script>
     <script src="{{ site.baseurl }}/js/libs/list.js"></script>
+    <!--<script src="{{ site.baseurl }}/js/libs/list.fuzzysearch.js"></script>-->
     <script>
       var options = {
         valueNames: [ 'sugar-name', 'gi' ],
-        order: false
+        // plugins: [ ListFuzzySearch() ] 
       };
 
       var sugarList = new List('sugars-list', options);
