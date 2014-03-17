@@ -319,9 +319,9 @@ ul.nav.is-visible {
 
 /* line 281, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li ul li {
-  padding: 0 0 0 5%;
+  padding: 0;
+  margin-left: 2em;
   line-height: 1.4;
-  text-indent: 5%;
 }
 /* line 286, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li ul li:before {

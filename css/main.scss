@@ -279,9 +279,9 @@ ul.nav {
 .nav li ul li:after { background: none; }
 
 .nav li ul li {
-	padding: 0 0 0 5%;
+	padding: 0;
+	margin-left: 2em;
 	line-height: 1.4;
-	text-indent: 5%;
 
 	&:before {
 		content: "";
