@@ -1,23 +1,19 @@
 The Sugar List
 ==============
 
-This is a list of sugars to beware of at the grocery store.
+#### The Sugar List is a guide to the many ingredients that are simply sugar. This pocket reference will help you make better-informed decisions at the grocery store.
 
-> Add this page to your iPhone's home screen and while you're checking out the ingredients of the pop-tarts or whatever, take a look and see which of those ingredients are sugars that do absolutely nothing for you or your body. 
+Add this page to your phone or tablet's home screen and while you're reading the ingredient list, find out what exactly Polydextrose is, for example. You'll find that is indeed a sugar and is known for gas, bloating, and diarrhea.
 
-No kidding though, this is meant to be a quick reference to identify tricky sugar ingredient names.
+No kidding though, this is meant to be a quick reference to identify tricky ingredient names that are sugars. Food manufacturers are required by law to list ingredients by weight in the order of amount. The use multiple kinds of sugar because so 'sugar' is not the first ingredient.
 
-If you have any extra information or ideas on how to enhance this page for the greater good or some design sense, submit a pull-request. I'm all about making this as useful and useable as possible.
-
----
-
-**While what's here now is usable as-is, I plan to use this little app to learn, practice, and play with different web technologies I find interesting. I'll create other branches to work on that stuff.**
-
+If you have any extra information, ideas on how to enhance this page, or even some design input, submit a pull-request. I'm all about making this as useful and useable as possible.
 
 ---
+#### While what's here now is usable as-is, I plan to use this little app to learn, practice, and play with different web technologies I find interesting. I'll create other branches to work on that stuff.**
+---
 
-Attributions:
+I could not have done this without:
 
-+ My mom, Marci Sloan, researched and wrote almost all the words one this site.
-+ At [/purpose](http://tylersloan.github.io/sugar-app/purpose/ "Purpose of The SSugar List") I listed sites where I gather glycemic index numbers.
-+ Tshirt icon by [Norbert Kucsera](http://thenounproject.com/term/tshirt/36016/ "Tshirt by Norbert Kuscera") from The Noun Project.
++ My mom, Marci Sloan. She did all the research and wrote all the copy.
++ At [/resource](http://tylersloan.github.io/sugar-app/resources/ "Resources for The Sugar List") I listed sites where I gather glycemic index numbers.
