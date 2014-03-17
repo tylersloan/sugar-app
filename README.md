@@ -16,4 +16,4 @@ If you have any extra information, ideas on how to enhance this page, or even so
 I could not have done this without:
 
 + My mom, Marci Sloan. She did all the research and wrote all the copy.
-+ At [/resource](http://tylersloan.github.io/sugar-app/resources/ "Resources for The Sugar List") I listed sites where I gather glycemic index numbers.
++ [/resource](http://tylersloan.github.io/sugar-app/resources/ "Resources for The Sugar List") List of sites from where I gathered glycemic indexes.
