@@ -226,6 +226,7 @@ ul.nav {
 	padding: 2em 5% 4em 5%;
 	font-size: 1em;
 	text-align: left;
+	list-style: none;
 	z-index: 2000;
 	overflow: scroll;
 	transition: 200ms transform linear;
@@ -253,10 +254,6 @@ ul.nav {
 			width: 100%;
 			left: 0;
 			bottom: 0;
-		}
-
-		a, a:visited {
-			color: $light-color;
 		}
 	}
 
@@ -525,25 +522,24 @@ article {
 
 .arrow { fill: #fff }
 
-ul { list-style: none }
-
 li {
-	display: block;
 	line-height: 1.75;
-}
 
-li p {
-	padding: 0;
-	border-bottom: 0;
-}
+	p {
+		padding: 0;
+		border-bottom: 0;
+	}
 
-li a {
-	display: block;
-	text-decoration: none;
-	color: inherit;
-}
+	a, a:visited {
+		color: $light-color;
 
-li a p { display: inline-block }
+		&:hover, &:focus {
+			color: darken($light-color,10%);
+		}
+
+		p { display: inline-block }
+	}
+}
 
 .swiveler {
 	display: inline-block;

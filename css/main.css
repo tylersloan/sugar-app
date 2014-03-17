@@ -264,6 +264,7 @@ ul.nav {
   padding: 2em 5% 4em 5%;
   font-size: 1em;
   text-align: left;
+  list-style: none;
   z-index: 2000;
   overflow: scroll;
   transition: 200ms transform linear;
@@ -271,18 +272,18 @@ ul.nav {
   -webkit-transform: translate3d(0px, -200%, 0);
   transform: translate3d(0px, -200%, 0);
 }
-/* line 236, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 237, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 ul.nav.is-visible {
   -webkit-transform: translate3d(0px, 0, 0);
   transform: translate3d(0px, 0, 0);
 }
 
-/* line 244, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 245, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li {
   position: relative;
   padding: .75em 0;
 }
-/* line 248, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 249, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li:after {
   position: absolute;
   content: '';
@@ -292,11 +293,7 @@ ul.nav.is-visible {
   left: 0;
   bottom: 0;
 }
-/* line 258, /Users/tylersloan/Projects/sugar-app/css/main.scss */
-.nav li a, .nav li a:visited {
-  color: white;
-}
-/* line 263, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 260, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav .h1 {
   margin-top: 2em;
   padding: 0;
@@ -304,7 +301,7 @@ ul.nav.is-visible {
   color: #333333;
   line-height: 0;
 }
-/* line 271, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 268, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav .h4 {
   width: 100%;
   margin: 2em 0 0 0;
@@ -313,20 +310,20 @@ ul.nav.is-visible {
   font-weight: 300;
 }
 
-/* line 280, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 277, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li:last-child:after,
 .nav li:first-child:after,
 .nav li ul li:after {
   background: none;
 }
 
-/* line 284, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 281, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li ul li {
   padding: 0 0 0 5%;
   line-height: 1.4;
   text-indent: 5%;
 }
-/* line 289, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 286, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li ul li:before {
   content: "";
   position: absolute;
@@ -337,7 +334,7 @@ ul.nav.is-visible {
   background: white;
 }
 
-/* line 300, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 297, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .nav li span {
   margin-right: .5em;
   padding: .25em .25em .25em 0;
@@ -348,18 +345,18 @@ ul.nav.is-visible {
   border-right: 3px solid;
 }
 
-/* line 310, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 307, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 footer {
   padding: 0 0 2em 0;
   background: #a66049;
 }
-/* line 314, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 311, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 footer section {
   max-width: 800px;
   width: 90%;
   margin: 0 auto;
 }
-/* line 320, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 317, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 footer p {
   display: inline-block;
   padding: 0;
@@ -367,16 +364,16 @@ footer p {
   color: white;
   border-bottom: 0;
 }
-/* line 328, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 325, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 footer a, footer a:visited {
   color: #4c4c4c;
 }
-/* line 331, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 328, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 footer a:hover, footer a:focus, footer a:visited:hover, footer a:visited:focus {
   color: #191919;
 }
 
-/* line 335, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 332, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .wrapper {
   width: 100%;
   max-width: 800px;
@@ -397,57 +394,57 @@ footer a:hover, footer a:focus, footer a:visited:hover, footer a:visited:focus {
   }
 }
 @media screen and (min-width: 767px) {
-  /* line 335, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+  /* line 332, /Users/tylersloan/Projects/sugar-app/css/main.scss */
   .wrapper {
     background-position: center top;
     background-size: 95% auto;
   }
 }
 
-/* line 350, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 347, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 section {
   padding-top: 2em;
 }
 
-/* line 352, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 349, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article {
   padding: 0 5%;
 }
-/* line 355, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 352, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article .page-heading {
   font-family: Oswald,sans-serif;
   padding: 1.25em 0 .25em 0;
 }
-/* line 360, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 357, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article h4.page-heading {
   font-size: 1.1em;
 }
-/* line 370, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 367, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article p, article blockquote {
   padding: 0 0 1em 0;
   border-bottom: 0;
 }
-/* line 375, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 372, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article blockquote {
   padding-bottom: .25em;
   font-size: 1.15em;
   font-family: Oswald,sans-serif;
   font-weight: 300;
 }
-/* line 382, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 379, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article cite {
   display: block;
   padding-bottom: 1em;
   font-size: 70%;
   line-height: 1.2;
 }
-/* line 389, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 386, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 article em {
   font-weight: bold;
   font-style: normal;
 }
 
-/* line 395, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 392, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .options {
   display: block;
   width: 100%;
@@ -459,12 +456,12 @@ article em {
   text-transform: uppercase;
 }
 
-/* line 406, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 403, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search-container {
   position: relative;
   margin-bottom: .25em;
 }
-/* line 410, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 407, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search-container span.icon-search {
   position: absolute;
   top: 0.45em;
@@ -473,31 +470,31 @@ article em {
   color: #b5664c;
 }
 
-/* line 419, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 416, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 ::-webkit-input-placeholder {
   color: #b5664c;
   font-family: Domine,serif;
 }
 
-/* line 420, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 417, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 :-moz-placeholder {
   color: #b5664c;
   font-family: Domine,serif;
 }
 
-/* line 421, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 418, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 ::-moz-placeholder {
   color: #b5664c;
   font-family: Domine,serif;
 }
 
-/* line 422, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 419, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 :-ms-input-placeholder {
   color: #b5664c;
   font-family: Domine,serif;
 }
 
-/* line 424, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 421, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search {
   position: relative;
   -webkit-appearance: none;
@@ -511,63 +508,63 @@ article em {
   line-height: 1.7;
 }
 
-/* line 437, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 434, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search:focus {
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.1);
   outline: 0;
 }
-/* line 441, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 438, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search:focus::-webkit-input-placeholder {
   color: #d3a494;
 }
-/* line 442, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 439, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search:focus:-moz-placeholder {
   color: #d3a494;
 }
-/* line 443, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 440, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search:focus::-moz-placeholder {
   color: #d3a494;
 }
-/* line 444, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 441, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .search:focus:-ms-input-placeholder {
   color: #d3a494;
 }
 
-/* line 447, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 444, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button {
   border: 3px solid #607482;
   color: #fff;
   background: 0 0;
 }
 
-/* line 453, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 450, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .shadowed {
   box-shadow: 0 0 0px 7px rgba(0, 0, 0, 0.05);
 }
 
-/* line 457, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 454, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.sort {
   border: 0;
   margin-right: 1em;
 }
 
-/* line 462, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 459, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.sort:active, .button.sort:focus {
   outline-width: 0;
 }
 
-/* line 463, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 460, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.sort:after {
   content: "↓";
   opacity: 0;
 }
 
-/* line 464, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 461, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.sort.desc:after {
   content: "↑";
 }
 
-/* line 465, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 462, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.sort.asc:after,
 .button.sort.desc:after {
   opacity: 1;
@@ -575,7 +572,7 @@ article em {
   font-size: 1.1em;
 }
 
-/* line 472, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 469, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.add {
   position: absolute;
   top: .5em;
@@ -584,50 +581,50 @@ article em {
   text-align: center;
 }
 
-/* line 480, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 477, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.add:hover {
   border-color: #45535d;
 }
 
-/* line 482, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 479, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .button.add img {
   width: 20px;
   line-height: 0;
   float: left;
 }
 
-/* line 488, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 485, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .add-buttons {
   margin-bottom: 2em;
 }
 
-/* line 489, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 486, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .add-buttons .button {
   border-top-width: 2px;
   line-height: 3.25;
 }
 
-/* line 493, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 490, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .add-buttons .button:hover {
   background: #607482;
 }
 
-/* line 494, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 491, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .add-buttons .button:first-child {
   border-right-width: 1px;
 }
 
-/* line 495, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 492, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .add-buttons .button:last-child {
   border-left-width: 1px;
 }
 
-/* line 496, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 493, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .new-sugar-form {
   display: none;
 }
 
-/* line 498, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 495, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sort-options {
   position: relative;
   display: block;
@@ -636,12 +633,12 @@ article em {
   background: transparent;
 }
 
-/* line 506, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 503, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sort-options h3 {
   display: inline-block;
 }
 
-/* line 508, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 505, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sorters {
   height: 0;
   overflow: hidden;
@@ -649,12 +646,12 @@ article em {
   transition: 175ms all ease-in-out;
 }
 
-/* line 515, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 512, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sorters.is-revealed {
   height: 120px;
 }
 
-/* line 517, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 514, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sort-arrows {
   display: inline-block;
   position: absolute;
@@ -664,41 +661,34 @@ article em {
   height: 3.7em;
 }
 
-/* line 526, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 523, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .arrow {
   fill: white;
 }
 
-/* line 528, /Users/tylersloan/Projects/sugar-app/css/main.scss */
-ul {
-  list-style: none;
-}
-
-/* line 530, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 525, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 li {
-  display: block;
   line-height: 1.75;
 }
-
-/* line 535, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 528, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 li p {
   padding: 0;
   border-bottom: 0;
 }
-
-/* line 540, /Users/tylersloan/Projects/sugar-app/css/main.scss */
-li a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
+/* line 533, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+li a, li a:visited {
+  color: white;
 }
-
-/* line 546, /Users/tylersloan/Projects/sugar-app/css/main.scss */
-li a p {
+/* line 536, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+li a:hover, li a:focus, li a:visited:hover, li a:visited:focus {
+  color: #e6e6e6;
+}
+/* line 540, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+li a p, li a:visited p {
   display: inline-block;
 }
 
-/* line 548, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 544, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .swiveler {
   display: inline-block;
   margin-left: 0;
@@ -712,18 +702,18 @@ li a p {
   transition: 200ms all linear;
 }
 
-/* line 561, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 557, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .active .swiveler {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
-/* line 566, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 562, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugar-name {
   position: relative;
 }
 
-/* line 575, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 571, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugars li {
   padding: 1em;
   background: white;
@@ -731,39 +721,39 @@ li a p {
   color: #b5664c;
   cursor: pointer;
 }
-/* line 582, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 578, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugars li:last-child {
   border-bottom: 3px solid #b5664c;
 }
-/* line 584, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 580, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugars li:hover, .sugars li:focus, .sugars li.active {
   background: #FEFEFE;
 }
-/* line 586, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 582, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugars li:hover .sugar-name, .sugars li:focus .sugar-name, .sugars li.active .sugar-name {
   color: #834c39;
 }
-/* line 590, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 586, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugars li:hover .swiveler, .sugars li:focus .swiveler, .sugars li.active .swiveler {
   margin-left: 3px;
 }
 
-/* line 596, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 592, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugar-meta {
   height: 0;
   overflow: hidden;
   line-height: 1.4;
 }
-/* line 601, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 597, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugar-meta.is-visible {
   height: auto;
   margin-top: 1em;
 }
-/* line 606, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 602, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugar-meta p {
   color: #a66049;
 }
-/* line 609, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+/* line 605, /Users/tylersloan/Projects/sugar-app/css/main.scss */
 .sugar-meta p.gi {
   margin-bottom: .3em;
   padding: 0 0 .5em;
@@ -777,7 +767,7 @@ li a p {
 }
 
 @media screen and (max-width: 800px) {
-  /* line 624, /Users/tylersloan/Projects/sugar-app/css/main.scss */
+  /* line 620, /Users/tylersloan/Projects/sugar-app/css/main.scss */
   .nav li a:hover,
   .nav li a:focus {
     color: white;
