@@ -10,7 +10,7 @@ No kidding though, this is meant to be a quick reference to identify tricky ingr
 If you have any extra information, ideas on how to enhance this page, or even some design input, submit a pull-request. I'm all about making this as useful and useable as possible.
 
 ---
-#### While what's here now is usable as-is, I plan to use this little app to learn, practice, and play with different web technologies I find interesting. I'll create other branches to work on that stuff.**
+#### While what's here now is usable as-is, I plan to use this little app to learn, practice, and play with different web technologies I find interesting. I'll create other branches to work on that stuff.
 ---
 
 I could not have done this without:
