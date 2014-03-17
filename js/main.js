@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-  $('.sugar-name').click(function(){
+  $('.sugars li').click(function(){
     $(this).toggleClass('active');
     
-    var meta = $(this).next(".sugar-meta");
-    meta.toggleClass('visually-hidden');
+    var meta = $(this).find(".sugar-meta");
+    meta.toggleClass('is-visible');
 
     // if(meta.hasClass('visually-hidden')) {
     //   meta.removeClass('visually-hidden');
