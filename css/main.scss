@@ -275,23 +275,12 @@ ul.nav {
 }
 
 .nav li:last-child:after,
-.nav li:first-child:after,
-.nav li ul li:after { background: none; }
+.nav li:first-child:after { background: none; }
 
 .nav li ul li {
 	padding: 0;
 	margin-left: 2em;
 	line-height: 1.4;
-
-	&:before {
-		content: "";
-		position: absolute;
-		top: 10px;
-		left: 5%;
-		width: 5px;
-		height: 1px;
-		background: white;
-	}
 }
 
 .nav li span {
@@ -521,6 +510,10 @@ article {
 }
 
 .arrow { fill: #fff }
+
+.resources article ul {
+	padding: 0 0 2em 2em;
+}
 
 li {
 	line-height: 1.75;
