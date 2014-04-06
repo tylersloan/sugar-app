@@ -1,7 +1,7 @@
 The Sugar List
 ==============
 
-To Contribute:
+#### To Contribute:
 1. ````gem install jekyll-sass````
 2. ````git clone git@github.com:tylersloan/sugar-app.git````
 3. ````jekyll serve --baseurl '' --watch````
