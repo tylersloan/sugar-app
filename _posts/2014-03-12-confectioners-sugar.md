@@ -2,7 +2,8 @@
 layout: post
 title:  "Confectioner’s Sugar"
 categories: sugar
+tags: whites
 gi: 96
-description: Corn syrup and corn sweetener are derived from corn and is 100% glucose. It is not the same as high fructose corn syrup. It has no nutritional value. Corn sweeteners and HFCS are cheaper forms of sugar because corn is a subsidized crop, thus it is used more often than other sweeteners. Plus HFSC is very sweet so less is needed.
+description: Confectioner’s Sugar (powdered sugar) is refined white sugar that has been ground into a powder. It has not nutritional value.
 ---
 
