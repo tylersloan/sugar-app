@@ -2,9 +2,9 @@ The Sugar List
 ==============
 
 To Contribute:
-''''gem install jekyll-sass''''
-''''git clone git@github.com:tylersloan/sugar-app.git''''
-''''jekyll serve --baseurl '' --watch''''
+````gem install jekyll-sass````
+````git clone git@github.com:tylersloan/sugar-app.git````
+````jekyll serve --baseurl '' --watch````
 
 #### The Sugar List is a guide to the many ingredients that are simply sugar. This pocket reference will help you make better-informed decisions at the grocery store.
 
