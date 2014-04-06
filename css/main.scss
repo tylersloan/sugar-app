@@ -552,20 +552,14 @@ li {
 	transform: rotate(90deg);
 }
 
-.sugar-name {
-	position: relative
-}
-// .sugar-name.active, .sugar-name:focus, .sugar-name:hover {
-// 	color: #2a3239;
-// 	cursor: pointer;
-// }
-// .sugar-name.active .swiveler, .sugar-name:focus .swiveler, .sugar-name:hover .swiveler { margin-left: 3px; }
+.sugar-name { position: relative }
 
 .sugars li {
 	padding: 1em;
 	background: $light-color;
 	border-bottom: 1px solid $red;
 	color: $red;
+	list-style: none;
 	cursor: pointer;
 
 	&:last-child { border-bottom: 3px solid $red; }

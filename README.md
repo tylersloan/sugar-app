@@ -1,6 +1,13 @@
 The Sugar List
 ==============
 
+---
+To Contribute:
++ Make sure you have jekyll-sass installed
+  $ git clone git@github.com:tylersloan/sugar-app.git
+  $ jekyll serve --baseurl '' --watch
+---
+
 #### The Sugar List is a guide to the many ingredients that are simply sugar. This pocket reference will help you make better-informed decisions at the grocery store.
 
 Add this page to your phone or tablet's home screen and while you're reading the ingredient list, find out what exactly Polydextrose is, for example. You'll find that is indeed a sugar and is known for gas, bloating, and diarrhea.
